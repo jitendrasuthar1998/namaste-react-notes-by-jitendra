@@ -12,19 +12,32 @@
     <div id="root">Hello World</div>
 
     <div id="javascript">
+        
+    </div>
+
+    <div id="react">
 
     </div>
 
-    <!-- <script>
+    <script>
        const heading = document.createElement("h1");
        heading.innerHTML = "Hello World by Javascript";
 
       const javascriptNode = document.getElementById("javascript");
       javascriptNode.appendChild(heading);
-    </script> -->
+    </script>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+    <script>
+        const heading1 = React.createElement("h1",{},"Hello World From React!");
+
+        const root = ReactDOM.createRoot(document.getElementById("react"));
+
+        root.render(heading1);
+    </script>
 </body>
 
 </html>
