@@ -12,7 +12,7 @@ We can write "Hello World" in three ways.
 
 2. Using JavaScript
 
-Suppose you have a div with id "root". Using javascript, you can write "Hello World" in that div by doing this - 
+Suppose you have a DIV with ID "root". Using JavaScript, you can write "Hello World" in that DIV by doing this - 
 
 ```
 <script>
@@ -68,19 +68,19 @@ Because, React doesn't only work in web browser. We can also build the user inte
 
 The second file works like a bridge for React to connect with the DOM.
 
-You have inserted React into your project using CDN. Now how you can write "Hello World" using React?
+You have inserted React into your project using CDN. How you can write "Hello World" using React?
 
-First we need to create h1 heading using React.
+First, we need to create h1 heading using React.
 
-#### How you can create an h1 heading using React?
+#### How you can create a h1 heading using React?
 
 React gives us a method ```createElement()``` which accepts three parameters.
 
 * First parameter is the type of element which you want to create.
 
-* Second parater is the object
+* Second parameter is the object
 
-* Third paramert is the content which you want to put in that new element.
+* Third parameter is the content which you want to put in that new element.
 
 ```
 <script>
@@ -88,21 +88,21 @@ const heading = React.createElement("h1",{},"Hello World from React");
 </script>
 ```
 
-We have created headign element using ```React.createElement("h1",{},"Hello World from React")```.
+We have created a heading element using ```React.createElement("h1",{},"Hello World from React")```.
 
-Now, we need to add that heading into our div with id "root".
+Now, we need to add that heading into our DIV with ID "root".
 
-For that we need to tell React that where is the root where React can render stuff.
+For that, we need to tell React that where is the root where React can render stuff.
 
-I want to render heading element in div with id "root".
+I want to render a heading element in DIV with ID "root".
 
-For that i have to create a root inside React.
+For that, I have to create a root inside React.
 
 React wants a root, where it can do all DOM manipulation.
 
 Creating a root and rendering something inside it is a job of React DOM.
 
-Create root using ReactDOM
+Create root using React DOM
 
 ```
 const root = ReactDOM.createRoot(document.getElementById("root"));
