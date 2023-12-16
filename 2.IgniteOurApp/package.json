@@ -1,0 +1,17 @@
+{
+  "name": "namaste-react-episode-2",
+  "version": "1.0.0",
+  "description": "This is Namaste react episode 2 notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jitendra",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
