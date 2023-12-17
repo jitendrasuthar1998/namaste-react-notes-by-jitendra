@@ -1,3 +1,5 @@
+## Episode 1
+
  #### What does it mean, "Igniting our App"?
 
 Igniting our app mean to optimise our code that we can push to production.
@@ -173,3 +175,70 @@ and package.lock.json keep tracks of exact version of package installed in our p
 #### Why you don't need to push node_modules folder to github?
 
 Because i can regenerate node_modules folder as i have already pushed package.json and package.lock.json file to github.
+
+#### what is .gitignore file?
+
+.gitignore file contains the path of those files or folders which we don't want to push to github or in production server.
+
+Because we can regenerate them whenever and wherever we want.
+
+
+## Episode 2
+
+npm command is used when we want to install some package.
+
+npx command is used when we want to execute a package.
+
+we can get react using npm.
+
+#### cdn links are not a good way to bring react into our projects.
+
+#### why it is not a good way to brind react into our projects using cdn links?
+
+Because, it invokes a network call whenever we need to use React.
+
+If we already have react package inside node_modules folder, then it becomes easy to get React and use it in our project.
+
+And also, in future, if there another version of react comes, that time we may have to change the cdn url also.
+
+
+
+### The life of developers is to face lot of bugs, issues, here and there error and what not.
+
+What does this error means?
+
+```
+Browser scripts cannot have imports or exports.
+```
+
+This error means that normal browser script can't have import or export keywords in them.
+
+How to resolve that error?
+
+We got above error because we want to import in App.js file, but we haven't tell the browser that App.js is not a normal javascript file.
+
+we have to tell the browser that App.js is a module file. And only, then we can use import or export keyword in App.js file.
+
+What does parcel do?
+
+- Dev Build
+- Local Server
+- HMR - hot module replacement
+- File watching algorithm which is written in c++
+- Give faster build because it is doing caching
+- Image optimisation
+- Minification
+- Bundling
+- Compress files
+- Consisten hashing
+- Code splitting
+- Differential bundling - support older browsers
+- Diagnostics
+- Error handling
+- HTTPs server
+- Tree shaking - remove unused code
+- different dev and prod bundles
+
+#### React is not the only thing that makes our app fast.
+
+#### There are lot of other things responsible for making our app fast.
