@@ -1,0 +1,706 @@
+[
+    {
+        "info": {
+            "id": "84713",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+            "locality": "Jodhpur",
+            "areaName": "Sardarpura",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 4.1,
+            "parentId": "721",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 6.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30 mins",
+                "lastMileTravelString": "6.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-hut-sardarpura-jodhpur-84713",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "453406",
+            "name": "The Second Wife",
+            "cloudinaryImageId": "lmppekwv3wqmlr5nsyqg",
+            "locality": "ITI Road",
+            "areaName": "Shastri Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "North Indian"
+            ],
+            "avgRating": 3.2,
+            "veg": true,
+            "parentId": "8048",
+            "avgRatingString": "3.2",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 6.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "27 mins",
+                "lastMileTravelString": "6.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-second-wife-iti-road-shastri-nagar-jodhpur-453406",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "593457",
+            "name": "Thali Nation",
+            "cloudinaryImageId": "vpmlveemesnp33p7qfwk",
+            "locality": "Nai Sadak",
+            "areaName": "New Jodhpur",
+            "costForTwo": "₹199 for two",
+            "cuisines": [
+                "Thalis",
+                "Chinese",
+                "Indian"
+            ],
+            "avgRating": 3.9,
+            "veg": true,
+            "parentId": "204210",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 7.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "7.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/thali-nation-nai-sadak-new-jodhpur-jodhpur-593457",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "566395",
+            "name": "Pizza Story",
+            "cloudinaryImageId": "lubqlpbrfzhqxasja5w3",
+            "locality": "MBM College Road",
+            "areaName": "New Jodhpur",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 3.9,
+            "veg": true,
+            "parentId": "158977",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 6.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "33 mins",
+                "lastMileTravelString": "6.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 03:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹250 OFF",
+                "subHeader": "ABOVE ₹999",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-story-mbm-college-road-new-jodhpur-jodhpur-566395",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "755094",
+            "name": "Food 24",
+            "cloudinaryImageId": "b14cd9fc40129fcfb97aa7e621719d07",
+            "locality": "Samne Panchwati Colony",
+            "areaName": "New Jodhpur",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Fast Food",
+                "Pizzas",
+                "Burgers",
+                "Snacks"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "parentId": "80861",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 6.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "6.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹349",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/food-24-samne-panchwati-colony-new-jodhpur-jodhpur-755094",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "585219",
+            "name": "The Pizza Box",
+            "cloudinaryImageId": "elpj6sg9fophj885vywf",
+            "locality": "ITI Road",
+            "areaName": "Shastri Nagar",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Pizzas",
+                "Fast Food"
+            ],
+            "avgRating": 3.6,
+            "veg": true,
+            "parentId": "212550",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 6.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "6.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-pizza-box-iti-road-shastri-nagar-jodhpur-585219",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "793306",
+            "name": "Meal Memory",
+            "cloudinaryImageId": "7e51d425b0326f742736b913c27c0e67",
+            "locality": "Sardarpura",
+            "areaName": "Old Jodhpur",
+            "costForTwo": "₹296 for two",
+            "cuisines": [
+                "Fast Food",
+                "Pizzas",
+                "Beverages",
+                "Burgers",
+                "Snacks"
+            ],
+            "avgRating": 5,
+            "veg": true,
+            "parentId": "340917",
+            "avgRatingString": "5.0",
+            "totalRatingsString": "3",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "7.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/meal-memory-sardarpura-old-jodhpur-jodhpur-793306",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "252484",
+            "name": "I food you",
+            "cloudinaryImageId": "dreyxrr3thiygz4rate2",
+            "locality": "childern park",
+            "areaName": "Sardarpura ",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "North Indian",
+                "Indian",
+                "Fast Food",
+                "South Indian"
+            ],
+            "avgRating": 4.2,
+            "veg": true,
+            "parentId": "105405",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 7.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "28 mins",
+                "lastMileTravelString": "7.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/i-food-you-childern-park-sardarpura-jodhpur-252484",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "615517",
+            "name": "The Butter Chicken Company",
+            "cloudinaryImageId": "s7q61arjwx3dx3l33jeq",
+            "locality": "Nai Sadak",
+            "areaName": "New Jodhpur",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Biryani",
+                "Thalis",
+                "Kebabs"
+            ],
+            "avgRating": 3.8,
+            "parentId": "206096",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 7.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "26 mins",
+                "lastMileTravelString": "7.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-12-23 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-724ab4eb-998e-4db8-80d1-d0552038bb0a"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-butter-chicken-company-nai-sadak-new-jodhpur-jodhpur-615517",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+]
