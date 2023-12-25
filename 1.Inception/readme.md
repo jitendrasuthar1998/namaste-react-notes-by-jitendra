@@ -16,7 +16,7 @@ Using CDN
 
 We can create a React element using
 
-```
+```javascript
 React.createElement().
 ```
 
@@ -24,7 +24,7 @@ At the end of the day, the React element is just a JavaScript object.
 
 4. What is responsible for creating root in React?
 
-```
+```javascript
 ReactDOM.createRoot()
 ```
 
@@ -32,7 +32,7 @@ is responsible for creating a root in React.
 
 5. what does
 
-```
+```javascript
 root.render()
 ```
 
@@ -61,7 +61,7 @@ React.createElement("h1",{},"This is an heading.")
 <li>
 Or a React element
 
-```
+```javascript
 React.createElement("div",{},React.createElement("h1",{},"This is an heading."))
 ```
 

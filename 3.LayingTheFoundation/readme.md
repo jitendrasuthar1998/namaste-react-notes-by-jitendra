@@ -36,7 +36,7 @@ Any piece of javascript code is valid, and that javascript engine can understand
 
 #### Can the javascript engine understand this piece of code?
 
-```
+```javascript
 const jsxHeading = <h1 id="heading">Hello By Jitendra</h1>
 ```
 
