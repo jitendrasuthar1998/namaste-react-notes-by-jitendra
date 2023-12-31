@@ -1,0 +1,36 @@
+.menu-item-card{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    padding:20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.menuItem, .menu{
+    width: 600px;
+    margin: 20px auto;
+}
+
+.toggle-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-btn{
+    padding:5px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    padding:20px 0;
+    /* align-items: center; */
+    /* background-color: beige; */
+    /* border-bottom: 1px solid lightgray; */
+}

@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.login-btn, .logout-btn{
+  padding:10px 20px;
+  color:black;
+  border-radius:10px;
+  cursor:pointer;
+}

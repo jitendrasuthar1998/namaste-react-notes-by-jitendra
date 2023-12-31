@@ -1,0 +1,45 @@
+.restaurants-container{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurant-card:hover{
+    border:1px solid lightgray;
+}
+
+.restaurant-card{
+    /* height: 400px; */
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: ghostwhite;
+}
+
+.restaurant-card img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.restaurant-info{
+    padding:20px;
+}
+
+.restaurant-info p{
+    margin-top:10px;
+}
+
+.sub-header{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+}
+
+.search-btn{
+    margin-left:10px;
+}

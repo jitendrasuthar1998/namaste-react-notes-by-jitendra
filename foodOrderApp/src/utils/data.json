@@ -1,0 +1,355 @@
+[
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                "badges": {},
+                "vegOnlyDetails": {
+                    "imageId": "AutoVegOnly_qkjowj",
+                    "title": "Showing only vegetarian options.",
+                    "description": "Tap on the VEG ONLY button to turn off the setting"
+                },
+                "topRatedFilter": {},
+                "kidsCategoryFilter": {
+                    "attributes": {
+                        "displayText": "Kids Favourites",
+                        "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                        }
+                    }
+                },
+                "vegFilter": {
+                    "attributes": {
+                        "displayText": "VEG"
+                    }
+                },
+                "nonvegFilter": {
+                    "attributes": {
+                        "displayText": "NONVEG"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                "title": "Roti",
+                "itemCards": [
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598927",
+                                "name": "Tandori Roti",
+                                "category": "Roti",
+                                "isVeg": 1,
+                                "price": 1600,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.4",
+                                        "ratingCount": "7 ratings",
+                                        "ratingCountV2": "7"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                "title": " Roti",
+                "itemCards": [
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598928",
+                                "name": "Butter Roti",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 1800,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "7 ratings",
+                                        "ratingCountV2": "7"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "30030798",
+                                "name": "Tawa Roti",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 1500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.3",
+                                        "ratingCount": "325 ratings",
+                                        "ratingCountV2": "325"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "24593973",
+                                "name": "Rumali Roti",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 3000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {
+                                        "rating": "4.6",
+                                        "ratingCount": "273 ratings",
+                                        "ratingCountV2": "273"
+                                    }
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598935",
+                                "name": "Plain Nan",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 5000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598938",
+                                "name": "Butter Nan",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 6000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598941",
+                                "name": "Lacha Parantha",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 6000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598943",
+                                "name": "Lal Mirch ka Parantha",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 9500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598946",
+                                "name": "Hari Mirch ka Parantha",
+                                "category": " Roti",
+                                "isVeg": 1,
+                                "price": 9500,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598949",
+                                "name": "Mutton Keema Parantha  [With Curry]",
+                                "category": " Roti",
+                                "price": 24000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    },
+                    {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                                "id": "128598951",
+                                "name": "Chicken Keema Parantha  [With Curry]",
+                                "category": " Roti",
+                                "price": 24000,
+                                "variants": {},
+                                "variantsV2": {},
+                                "itemAttribute": {
+                                    "vegClassifier": "NONVEG"
+                                },
+                                "ribbon": {},
+                                "type": "ITEM",
+                                "itemBadge": {},
+                                "badgesV2": {},
+                                "ratings": {
+                                    "aggregatedRating": {}
+                                }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]
