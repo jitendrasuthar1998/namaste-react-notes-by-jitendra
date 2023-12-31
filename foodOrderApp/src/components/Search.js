@@ -21,16 +21,16 @@ const Search = (props) => {
   };
 
   return (
-    <div className="search-container">
+    <div className="">
       <form>
         <input
           type="text"
-          className="search-input"
+          className="border-2 rounded-md"
           placeholder="Search"
           value={searchText}
           onChange={handleSearchText}
         />
-        <button type="button" className="search-btn" onClick={handleSearch}>
+        <button type="button" className="border-2 rounded-md px-2" onClick={handleSearch}>
           Search
         </button>
       </form>

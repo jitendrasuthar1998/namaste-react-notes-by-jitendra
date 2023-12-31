@@ -6,12 +6,12 @@ const RestaurantCard = (props) => {
     props.resdata;
 
   return (
-    <div className="restaurant-card">
+    <div className="border-2 w-40 hover:border-red-300">
       <div>
-        <img loading="lazy" src={CDN_URL + cloudinaryImageId} className="restaurant-image" alt={`img+${cloudinaryImageId}`} />
+        <img loading="lazy" src={CDN_URL + cloudinaryImageId} className="h-32 w-full object-cover" alt={`img+${cloudinaryImageId}`} />
       </div>
-      <div className="restaurant-info">
-        <h3 className="restaurant-name">{name}</h3>
+      <div className="p-3">
+        <h3 className="text-lg">{name}</h3>
         <p className="restaurant-address">{cuisines.join(", ")}</p>
         <p className="restaurant-address">{avgRating}</p>
         <p className="restaurant-address">{costForTwo}</p>
