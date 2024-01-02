@@ -4,7 +4,7 @@ import userData from '../../utils/resData.json';
 
 const UserCard = (props) => {
     const {name} = props;
-    console.log(userData);
+
     const [count, setCount] = useState(0)
 
 
@@ -12,10 +12,10 @@ const UserCard = (props) => {
         // setInterval(()=>{
         //     console.log("set interval from useEffect");
         // },1000);
-        console.log("userEffect when component loads on screen")
+        // console.log("userEffect when component loads on screen")
 
         return ()=>{
-            console.log("userEffect return when the component gets unmounted");
+            // console.log("userEffect return when the component gets unmounted");
         }
     },[])
 

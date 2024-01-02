@@ -1,24 +1,47 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Food from "../../assets/food.png";
-// import "./header.css";
 import { Link } from "react-router-dom";
-
+import UserContext from "../../utils/UserContext";
 
 const Header = () => {
-
   const [btnName, setBtnName] = useState("Login");
 
-  useEffect(()=>{
+  const { loggedInUser } = useContext(UserContext);
+
+  useEffect(() => {
     console.log("useEffect will be everytime when btnName changes");
-  },[btnName]);
-  
+  }, [btnName]);
+
   const handleLogin = () => {
-    if(btnName === "Login"){
+    if (btnName === "Login") {
       setBtnName("Logout");
-    }else{
+    } else {
       setBtnName("Login");
     }
-  }
+  };
+
+  const navItems = [
+    {
+      title: "Home",
+      path: "/",
+    },
+    {
+      title: "About",
+      path: "/about",
+    },
+    {
+      title: "Contact",
+      path: "/contact",
+    },
+    {
+      title: "Cart",
+      path: "/cart",
+    },
+    {
+      title: "Grocery",
+      path: "/grocery",
+    },
+  ];
 
   return (
     <div className="flex justify-between border px-5 items-center">
@@ -27,12 +50,19 @@ const Header = () => {
       </div>
       <div>
         <ul className="flex list-none justify-center items-center">
-          <li className="p-2.5 m-2.5"><Link to={"/"}>Home</Link></li>
-          <li className="p-2.5 m-2.5"><Link to={"/about"}>About</Link></li>
-          <li className="p-2.5 m-2.5"><Link to={"/contact"}>Contact</Link></li>
-          <li className="p-2.5 m-2.5"><Link to={"/cart"}>Cart</Link></li>
-          <li className="p-2.5 m-2.5"><Link to={"/grocery"}>Grocery</Link></li>
-          <button className="py-2.5 px-5 text-black rounded-xl cursor-pointer border-2" onClick={()=> handleLogin()}>{btnName}</button>
+          {navItems.map(({ path, title }) => (
+            <li key={title} className="p-2.5 m-2.5">
+              <Link to={path}>{title}</Link>
+            </li>
+          ))}
+
+          <button
+            className="py-2.5 px-5 mx-2 text-black rounded-xl cursor-pointer border-2"
+            onClick={() => handleLogin()}
+          >
+            {btnName}
+          </button>
+          <li className="font-bold">{loggedInUser}</li>
         </ul>
       </div>
     </div>

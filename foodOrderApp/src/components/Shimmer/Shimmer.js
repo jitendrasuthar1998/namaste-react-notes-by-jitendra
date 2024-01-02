@@ -1,23 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./shimmer.css";
 
 const Shimmer = () => {
-  return (
-    <div className='shimmer-cards-container'>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-        <div className="shimmer-card">Cards</div>
-    </div>
-  )
-}
+  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-export default Shimmer
+  return (
+    <div className="flex flex-wrap items-center gap-5 justify-center">
+      {numbers.map((number) => (
+        <div key={number} className="bg-gray-200 h-60 w-60 rounded-lg">
+          Cards
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Shimmer;

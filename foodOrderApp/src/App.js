@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
@@ -8,6 +8,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 // import Cart from "./components/Cart";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer/Shimmer";
+import UserContext from "./utils/UserContext";
 // import Grocery from "./components/Grocery";
 
 //Lazy loading
@@ -20,11 +21,22 @@ const Contact = lazy(() => import("./components/Contact"));
 const Error = lazy(() => import("./components/Error"));
 
 const App = () => {
+  const [userName, setUserName] = useState(null);
+  useEffect(() => {
+    // Make an api call to authenticate user, then let user login into application
+    const data = {
+      name: "Jitendra Suthar",
+    };
+    setUserName(data.name);
+  }, []);
+
   return (
-    <div className="app">
-      <Header />
-      <Outlet />
-    </div>
+    <UserContext.Provider value={{ loggedInUser: userName }}>
+      <div className="app">
+        <Header />
+        <Outlet />
+      </div>
+    </UserContext.Provider>
   );
 };
 
@@ -49,11 +61,19 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Suspense fallback={<Shimmer />}><Contact /></Suspense>,
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <Contact />
+          </Suspense>
+        ),
       },
       {
         path: "/cart",
-        element: <Suspense fallback={<Shimmer />}><Cart /></Suspense>,
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <Cart />
+          </Suspense>
+        ),
       },
       {
         path: "/grocery",
@@ -68,7 +88,11 @@ const appRouter = createBrowserRouter([
         element: <RestaurantMenu />,
       },
     ],
-    errorElement: <Suspense fallback={<Shimmer />}><Error /></Suspense>,
+    errorElement: (
+      <Suspense fallback={<Shimmer />}>
+        <Error />
+      </Suspense>
+    ),
   },
 ]);
 

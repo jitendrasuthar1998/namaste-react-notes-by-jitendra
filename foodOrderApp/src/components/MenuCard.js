@@ -9,28 +9,31 @@ const MenuCard = (props) => {
     setShowMenuItem(!showMenuItem);
   };
 
-  console.log("item is == ", item);
+  const title = item?.card?.card.title;
+  const itemCount = item?.card?.card.itemCards.length;
+  const itemCards = item?.card?.card?.itemCards;
 
   return (
     <div className="menuItem">
       <div className="toggle-container">
-        <h2>{item?.card?.card.title}</h2>
+        <h2>{title} ({itemCount})</h2>
         <button className="toggle-btn" onClick={() => handleShowMenuItem()}>Toggle</button>
       </div>
       <>
         {showMenuItem ? (
           <>
-            {item?.card?.card.itemCards.map((res) => {
+            {itemCards.map((res) => {
+              const {id, price,imageId} = res.card.info;
               return (
-                <div key={res.card.info.id} className="menu-item-card">
+                <div key={id} className="menu-item-card">
                   <div className="menu-details">
-                    <h3>{res.card.info.name}</h3>
-                    <p>{res.card.info.price}</p>
+                    <h3>{name}</h3>
+                    <p>{price}</p>
                   </div>
                   {res.card.info.hasOwnProperty("imageId") ? (
                     <div className="menu-image">
                       <img
-                        src={`${MENU_IMG}${res.card.info.imageId}`}
+                        src={`${MENU_IMG}${imageId}`}
                         alt={res.image}
                         height={100}
                         width={100}

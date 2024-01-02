@@ -6,37 +6,52 @@ import resMenuData from "../utils/resMenu.json";
 import MenuCard from "./MenuCard";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
+import ResCategory from "./Body/RestaurantCategory";
 
 const RestaurantMenu = () => {
   const { resId } = useParams();
   const resInfo = useRestaurantMenu(resId);
-  
+  const [showIndex, setShowIndex] = useState(0);
+  const [showItems, setShowItems] = useState(false);
+
+  const handleShowIndex = (index) => {
+    console.log("index at handleShowIndex == ", index);
+    if (index === showIndex) {
+      return setShowItems(!showItems);
+    }
+    setShowIndex(index);
+    // setShowItems(true);
+  };
+
   if (resInfo === null) return null;
 
-  // const { name, cuisines, costForTwoMessage, avgRating, totalRatingsString } =
-  //   resInfo?.cards[0]?.card?.card?.info;
+  const resMenuInfo =
+    resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards.filter(
+      (item) =>
+        item.card?.card?.["@type"] ===
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+    );
+  // console.log("resMenuInfo", resMenuInfo);
+
+  const { name, cuisines, avgRating, totalRatingsString, costForTwoMessage } =
+    resInfo?.cards[0]?.card?.card?.info;
+
+const dummy = "Dummy Data";
 
   return (
-    <div className="menu">
-      <div className="menu-header">
-        <div className="menu-description">
-          {/* {console.log("name is == ", resInfo?.cards[0]?.card?.card?.info)} */}
-          <h1>{resInfo?.cards[0]?.card?.card?.info.name}</h1>
-          <p className="cusines">
-            {resInfo?.cards[0]?.card?.card?.info.cuisines.join(", ")}
-          </p>
-        </div>
-        <div className="menu-ratings">
-          <p>{resInfo?.cards[0]?.card?.card?.info.avgRating}</p>
-          <p>{resInfo?.cards[0]?.card?.card?.info.totalRatingsString}</p>
-        </div>
-      </div>
-      <h3>{resInfo?.cards[0]?.card?.card?.info.costForTwoMessage}</h3>
-      {resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards.map((item) => {
-        return item?.card?.card.hasOwnProperty("itemCards") ? (
-          <MenuCard key={item.card.card.title} item={item} />
-        ) : null;
-      })}
+    <div>
+      <h1 className="font-bold my-6 text-2xl text-center">{name}</h1>
+      <p className="font-bold text-lg text-center">{cuisines.join(", ")}</p>
+      {/* categories accordions */}
+      {resMenuInfo.map((category, index) => (
+        <ResCategory
+          key={category?.card?.card.title}
+          data={category?.card?.card}
+          showItems={index === showIndex ? true : false}
+          index={index}
+          setShowIndex={()=> setShowIndex(index)}
+        />
+      ))}
     </div>
   );
 };
