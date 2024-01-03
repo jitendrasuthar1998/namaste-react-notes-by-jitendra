@@ -1,11 +1,19 @@
 import React from "react";
 import { MENU_IMG } from "../utils/constants";
+import { useDispatch } from "react-redux";
+import { addItem } from "../redux/cartSlice";
 
-const ItemList = ({ items,dummy }) => {
+const ItemList = ({ items }) => {
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) => {
+    dispatch(addItem(item));
+  };
+
   return (
     <div>
       {items.map((item) => {
-        const { id, name, price, description, imageId } = item.card.info;
+        const { id, name, price, description, imageId,defaultPrice } = item.card.info;
 
         return (
           <div
@@ -14,7 +22,7 @@ const ItemList = ({ items,dummy }) => {
           >
             <div className="w-9/12">
               <div>
-                <span>{name}</span> - <span>₹{price / 100}</span>
+                <span>{name}</span> - <span>₹{price ? price : defaultPrice / 100}</span>
               </div>
               <p className="text-sm text-gray-500">{description}</p>
             </div>
@@ -25,8 +33,11 @@ const ItemList = ({ items,dummy }) => {
                   className="h-20 w-20"
                   alt={name}
                 />
-                <button className="py-1 px-2 text-sm rounded bg-white shadow-lg absolute top-14 left-5">
-                  Add
+                <button
+                  onClick={() => handleAddItem(item)}
+                  className="py-1 px-2 text-sm rounded bg-white shadow-lg absolute top-14 left-5"
+                >
+                  Add +
                 </button>
               </div>
             ) : null}

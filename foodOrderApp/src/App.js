@@ -3,14 +3,11 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-// import Contact from "./components/Contact";
-// import Error from "./components/Error";
-// import Cart from "./components/Cart";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Shimmer from "./components/Shimmer/Shimmer";
 import UserContext from "./utils/UserContext";
-// import Grocery from "./components/Grocery";
-
+import { Provider } from "react-redux";
+import appStore from "./redux/appStore";
 //Lazy loading
 // On demand loading
 
@@ -29,14 +26,16 @@ const App = () => {
     };
     setUserName(data.name);
   }, []);
-
+ 
   return (
-    <UserContext.Provider value={{ loggedInUser: userName }}>
-      <div className="app">
-        <Header />
-        <Outlet />
-      </div>
-    </UserContext.Provider>
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ loggedInUser: userName }}>
+        <div className="app">
+          <Header />
+          <Outlet />
+        </div>
+      </UserContext.Provider>
+    </Provider>
   );
 };
 

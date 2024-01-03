@@ -15,7 +15,7 @@ const RestaurantCard = (props) => {
           alt={`img+${cloudinaryImageId}`}
         />
         <div className={`h-3 w-3 border-2 ${veg ? "border-green-500" : "border-red-600"} absolute top-2 right-2 flex justify-center items-center`}>
-          <div className="h-1 w-1 border-[1px] border-black"></div>
+          <div className={`h-1 w-1 border-[1px] ${veg ? "border-green-500" : "border-red-600"}`}></div>
         </div>
       </div>
       <div className="p-3">
