@@ -6,7 +6,7 @@ const RestaurantCard = (props) => {
     props.resdata;
 
   return (
-    <div className="bg-white w-[230px] border-white hover:bg-gray-100 p-2 rounded-lg">
+    <div data-testid="resCard" className="bg-white w-[230px] border-white hover:bg-gray-100 p-2 rounded-lg">
       <div className="relative">
         <img
           loading="lazy"

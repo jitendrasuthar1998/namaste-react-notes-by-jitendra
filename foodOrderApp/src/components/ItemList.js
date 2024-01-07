@@ -13,34 +13,46 @@ const ItemList = ({ items }) => {
   return (
     <div>
       {items.map((item) => {
-        const { id, name, price, description, imageId,defaultPrice } = item.card.info;
+        const { id, name, price, description, imageId, defaultPrice } =
+          item.card.info;
 
         return (
           <div
+            data-testid="fooditems"
             key={id}
             className="py-2 m-2 border-b-2 flex border-gray-200 justify-between"
           >
             <div className="w-9/12">
               <div>
-                <span>{name}</span> - <span>₹{price ? price : defaultPrice / 100}</span>
+                <span>{name}</span> -{" "}
+                <span>₹{price ? price / 100 : defaultPrice / 100}</span>
               </div>
               <p className="text-sm text-gray-500">{description}</p>
             </div>
-            {imageId ? (
-              <div className="3/12 relative">
-                <img
-                  src={`${MENU_IMG}${imageId}`}
-                  className="h-20 w-20"
-                  alt={name}
-                />
+            <div className="3/12 relative">
+              {imageId ? (
+                <>
+                  <img
+                    src={`${MENU_IMG}${imageId}`}
+                    className="h-20 w-20"
+                    alt={name}
+                  />
+                  <button
+                    onClick={() => handleAddItem(item)}
+                    className="py-1 px-2 text-sm rounded bg-white shadow-lg absolute top-14 left-5"
+                  >
+                    Add +
+                  </button>
+                </>
+              ) : (
                 <button
                   onClick={() => handleAddItem(item)}
-                  className="py-1 px-2 text-sm rounded bg-white shadow-lg absolute top-14 left-5"
+                  className="py-1 px-2 text-sm rounded bg-white shadow-lg "
                 >
                   Add +
                 </button>
-              </div>
-            ) : null}
+              )}
+            </div>
           </div>
         );
       })}

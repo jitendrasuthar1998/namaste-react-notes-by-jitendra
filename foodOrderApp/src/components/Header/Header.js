@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
-import Food from "../../assets/food.png";
 import { Link } from "react-router-dom";
 import UserContext from "../../utils/UserContext";
 import { useSelector } from "react-redux";
+import { FOOD_LOGO } from "../../utils/constants";
 
 const Header = () => {
   const [btnName, setBtnName] = useState("Login");
@@ -14,10 +14,10 @@ const Header = () => {
 
   const cartItems = useSelector((state)=> state.cart.items);
 
-  console.log(cartItems);
+  // console.log(cartItems);
 
   useEffect(() => {
-    console.log("useEffect will be everytime when btnName changes");
+    // console.log("useEffect will be everytime when btnName changes");
   }, [btnName]);
 
   const handleLogin = () => {
@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className="flex justify-between border px-5 items-center">
       <div className="logo-container">
-        <img src={Food} className="h-20" />
+        <img src={FOOD_LOGO} className="h-20" />
       </div>
       <div>
         <ul className="flex list-none justify-center items-center">
