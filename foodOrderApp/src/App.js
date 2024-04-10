@@ -8,6 +8,8 @@ import Shimmer from "./components/Shimmer/Shimmer";
 import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./redux/appStore";
+import ClickCounter from './components/interviewPrep/ClickCounter';
+import MouseOverCounter from './components/interviewPrep/MouseOverCounter';
 //Lazy loading
 // On demand loading
 
@@ -27,16 +29,23 @@ const App = () => {
     setUserName(data.name);
   }, []);
  
-  return (
-    <Provider store={appStore}>
-      <UserContext.Provider value={{ loggedInUser: userName }}>
-        <div className="app">
-          <Header />
-          <Outlet />
-        </div>
-      </UserContext.Provider>
-    </Provider>
-  );
+  // return (
+  //   <Provider store={appStore}>
+  //     <UserContext.Provider value={{ loggedInUser: userName }}>
+  //       <div className="app">
+  //         <Header />
+  //         <Outlet />
+  //       </div>
+  //     </UserContext.Provider>
+  //   </Provider>
+  // );
+
+  return(
+    <>
+    <ClickCounter/>
+    <MouseOverCounter/>
+    </>
+  )
 };
 
 // creating routing configuration

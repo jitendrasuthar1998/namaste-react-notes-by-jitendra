@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Roti",
+        "items": [
+            {
+                "id": "128598927",
+                "name": "Tandori Roti",
+                "price": 1200
+            },
+            {
+                "id": "128598928",
+                "name": "Butter Roti",
+                "price": 1800
+            },
+            {
+                "id": "30030798",
+                "name": "Tawa Roti",
+                "price": 1500
+            },
+            {
+                "id": "24593973",
+                "name": "Rumali Roti",
+                "price": 3000
+            }
+        ]
+    },
+    {
+        "title": "Fish  Seasonal",
+        "items": [
+            {
+                "id": "128598957",
+                "name": "Fish Afgani  [8 Pieces]",
+                "category": "Fish  Seasonal",
+                "price": 54000
+            },
+            {
+                "id": "128598963",
+                "name": "Fish Amritsari    [12 Pieces]",
+                "category": "Fish  Seasonal",
+                "price": 54000
+            },
+            {
+                "id": "128598968",
+                "name": "Fish Biriyani",
+                "category": "Fish  Seasonal",
+                "price": 36000
+            }
+        ]
+    },
+    {
+        "title": "Biryani",
+        "items": [
+            {
+                "id": "128598970",
+                "name": "Murgh Sausages Biryani",
+                "category": "Biryani",
+                "price": 26000
+            },
+            {
+                "id": "24593962",
+                "name": "Chicken Biryani",
+                "category": "Biryani"
+            }
+        ]
+    }
+]

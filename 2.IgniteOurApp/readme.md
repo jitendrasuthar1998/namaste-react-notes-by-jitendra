@@ -114,9 +114,9 @@ package.lock.json
 
 node_modules folder
 
-What does package.lock.json file means? Does it same file like package.json?
+#### What does package.lock.json file means? Does it same file like package.json?
 
-What is the difference between package.lock.json and package.json file?
+#### What is the difference between package.lock.json and package.json file?
 
 Package.json is a configuration for npm. It keeps track of what version of that package is installed.
 

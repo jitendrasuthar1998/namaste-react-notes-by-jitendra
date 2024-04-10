@@ -6,7 +6,6 @@ import RestaurantMenu from "../src/components/RestaurantMenu.js";
 import Header from "../src/components/Header/Header.js";
 import { act } from "react-dom/test-utils";
 import MOCK_RESTAURANT_DATA from "../mocks/oneRestaurantData.json";
-import "@testing-library/jest-dom";
 import { BrowserRouter } from "react-router-dom";
 import "@testing-library/jest-dom";
 

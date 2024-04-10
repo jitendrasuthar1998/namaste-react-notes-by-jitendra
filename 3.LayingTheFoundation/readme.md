@@ -38,6 +38,9 @@ Any piece of javascript code is valid, and that javascript engine can understand
 
 ```javascript
 const jsxHeading = <h1 id="heading">Hello By Jitendra</h1>
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(jsxHeading);
+
 ```
 
 No, the JavaScript engine can only understand ECMAScript.
@@ -48,7 +51,7 @@ Then how "Hello By Jitendra" is getting printed on the screen?
 
 Parcel is doing the job behind the scenes.
 
-Even before the above code goes to the browser or javascript engine, it is transpired before it goes to the JavaScript engine and the JavaScript engine receives code that the browser can understand.
+Even before the above code goes to the browser or javascript engine, it is transpiled before it goes to the JavaScript engine and the JavaScript engine receives code that the browser can understand.
 
 Transpiling is done by Parcel.
 
