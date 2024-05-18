@@ -29,23 +29,23 @@ const App = () => {
     setUserName(data.name);
   }, []);
  
-  // return (
-  //   <Provider store={appStore}>
-  //     <UserContext.Provider value={{ loggedInUser: userName }}>
-  //       <div className="app">
-  //         <Header />
-  //         <Outlet />
-  //       </div>
-  //     </UserContext.Provider>
-  //   </Provider>
-  // );
+  return (
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ loggedInUser: userName }}>
+        <div className="app">
+          <Header />
+          <Outlet />
+        </div>
+      </UserContext.Provider>
+    </Provider>
+  );
 
-  return(
-    <>
-    <ClickCounter/>
-    <MouseOverCounter/>
-    </>
-  )
+  // return(
+  //   <>
+  //   <ClickCounter/>
+  //   <MouseOverCounter/>
+  //   </>
+  // )
 };
 
 // creating routing configuration
